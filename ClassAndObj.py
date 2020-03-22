@@ -1,4 +1,5 @@
 class Examinee:
+		#Private variables
     __Name= None
     __Address= None
     __Ph_Number= None
