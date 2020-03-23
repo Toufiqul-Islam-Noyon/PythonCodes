@@ -14,6 +14,7 @@ class Honda(Bike):
     def calculate_Milage(self):
         print('Honda gives 40 km/l')
 
+#class object
 Honda_Obj= Honda()
 Honda_Obj.display()
 Honda_Obj.calculate_Milage()
