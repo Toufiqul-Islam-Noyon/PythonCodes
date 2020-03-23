@@ -55,7 +55,7 @@ class Teacher(Examinee):
         return self.__salary
 
 
-
+#Create Object of class
 Student1=Examinee()
 Student1.set_Name(input('Enter your name\n'))
 Student1.set_Address(input('Enter your address\n'))
