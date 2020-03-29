@@ -1,3 +1,4 @@
+#defined Decorator Function and defined decoratable function as parameter
 def Decorator(function):
     def StyleText():
         print('--------------------')
@@ -8,6 +9,7 @@ def Decorator(function):
 def Text():
     print('Give any text that you want to design')
 
+#we can call decorator function these three way
 DecObject = Decorator(Text)
 DecObject()
 
